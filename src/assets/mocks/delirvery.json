@@ -1,0 +1,13 @@
+{
+    "delivery": [
+      {
+        "id": 1234,
+        "address": "Some address",
+        "latitude": 2.334455,
+        "longitude": 4.323423,
+        "customer_name": "JuanPérez",
+        "requires_signature": false,
+        "special_instructions": "bluedoor, besides the car shop. Deliver to the car shop ifnecessary"
+      }
+    ]
+  }

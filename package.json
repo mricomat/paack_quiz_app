@@ -1,0 +1,45 @@
+{
+  "name": "paack_quiz_app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "cd android && gradlew clean && cd.. && npx react-native run-android",
+    "apk-release": "cd android && gradlew assembleRelease && cd ..",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.13.4",
+    "@react-native-community/geolocation": "^2.0.2",
+    "@react-navigation/native": "^5.9.2",
+    "@react-navigation/stack": "^5.14.2",
+    "axios": "^0.21.1",
+    "axios-mock-adapter": "^1.19.0",
+    "react": "16.13.1",
+    "react-native": "0.63.4",
+    "react-native-background-actions": "^2.5.2",
+    "react-native-gesture-handler": "^1.9.0",
+    "react-native-safe-area-context": "^3.1.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/plugin-proposal-decorators": "^7.12.13",
+    "@babel/runtime": "^7.12.13",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@types/node": "^14.14.25",
+    "@types/react": "^17.0.1",
+    "@types/react-native": "^0.63.48",
+    "@typescript-eslint/eslint-plugin": "^4.14.2",
+    "@typescript-eslint/parser": "^4.14.2",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.19.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.65.0",
+    "react-test-renderer": "16.13.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
